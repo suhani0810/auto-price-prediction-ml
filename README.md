@@ -1,5 +1,3 @@
-# auto-price-prediction-ml
-
 # Auto Price Prediction (PRCP-1017)
 
 ## Problem Statement
@@ -17,6 +15,7 @@ The dataset consists of 201 records with 26 unique attributes. Below is the deta
   - **Horsepower/Peak-rpm:** Measures of engine performance and power output.
   - **City-mpg/Highway-mpg:** Fuel efficiency metrics; typically inversely correlated with price and performance.
   - **Price (Target):** The final valuation of the vehicle.
+    
 ## Methodology
 - **Data Preprocessing:** Handled non-standard null values (e.g., '?') and reduced price skewness.
 - **Feature Engineering:** Identified critical drivers of valuation like curb-weight.
